@@ -1,0 +1,18 @@
+.navbar{
+    width: 100vw;
+    padding: 10px;
+    & ul{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        & li{
+            list-style: none;
+            & a{
+                font-size: 14px;
+                text-transform: uppercase;
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+}
