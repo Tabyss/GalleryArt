@@ -5,6 +5,7 @@ import { bundleMain } from "../../../assets/img/bundles/bundleMain";
 import { GoArrowLeft } from "react-icons/go";
 import News from "./News";
 import Form from "./Form";
+import List from "./List";
 import "./main.scss";
 
 function Main() {
@@ -43,7 +44,7 @@ function Main() {
           world of art and discover boundless inspiration.
         </p>
         <div>
-          
+          <List/>
         </div>
       </div>
     </div>
